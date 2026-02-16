@@ -47,10 +47,7 @@ Podés probar la aplicación directamente desde el navegador sin necesidad de in
 
 1. El usuario ingresa su año de nacimiento en el input.
 2. Al hacer clic en el botón **"Hace Click!"**, se ejecuta un evento `click`.
-3. Se obtiene el año actual con:
-
-```javascript
-new Date().getFullYear()
+3. Se obtiene el año actual con: new Date().getFullYear()
 4. Se calcula la edad restando el año ingresado.
 5. Se actualiza el contenido del <h1> y el <p> según el resultado:
 6. Si la edad es menor a 18 → "Sos menor de edad"
