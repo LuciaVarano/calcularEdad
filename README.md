@@ -23,6 +23,8 @@ Podés probar la aplicación directamente desde el navegador sin necesidad de in
 
 👉 **Acceder al deploy:** https://luciavarano.github.io/calcularEdad/
 
+---
+
 ## 🚀 Tecnologías utilizadas
 
 - **HTML5** → Estructura de la página.
