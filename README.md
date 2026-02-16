@@ -36,10 +36,14 @@ Podés probar la aplicación directamente desde el navegador sin necesidad de in
 ## 📂 Estructura del proyecto
 
 
-📁 proyecto
+```bash
+INPUTEDAD/
+├── js/
+│   └── app.js
 ├── index.html
-└── 📁 js
-└── app.js
+├── README.md
+└── tailwind.config.js
+```
 
 ---
 
@@ -49,9 +53,9 @@ Podés probar la aplicación directamente desde el navegador sin necesidad de in
 2. Al hacer clic en el botón **"Hace Click!"**, se ejecuta un evento `click`.
 3. Se obtiene el año actual con: new Date().getFullYear()
 4. Se calcula la edad restando el año ingresado.
-5. Se actualiza el contenido del <h1> y el <p> según el resultado:
-6. Si la edad es menor a 18 → "Sos menor de edad"
-7. Si la edad es mayor o igual a 18 → "Sos mayor de edad"
+5. Se actualiza el contenido según el resultado:<br>
+  5.1. Si la edad es menor a 18 → "Sos menor de edad"<br>
+  5.2. Si la edad es mayor o igual a 18 → "Sos mayor de edad"
 
 ---
 
